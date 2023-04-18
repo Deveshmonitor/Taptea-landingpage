@@ -1,0 +1,74 @@
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1% 2%;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+
+    .iteam ul li a{
+     margin-left: 2px;
+     font-size: 0.9rem;
+     color: rgb(240, 97, 14);
+     font-weight: bolder;
+     padding: 2px 5px;
+     border: 2px solid rgb(255, 255, 255);
+     
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2% 1%;
+        margin: auto;
+    }
+
+    .box1{
+        width: 100%;
+        margin: auto;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+      }
+      .box1 h3{
+        display: none;
+        text-align: center;
+        align-items:center ;
+        padding: 0% 1%;
+        font-size: 0.8rem;
+        background-color: #279e43;
+        border: 2px solid #279e43;
+        border-radius: 10px;
+        color: #ffffff;
+        font-weight: bold;
+        align-self: center;
+    
+        width: 50%;
+    }
+    .box1 ul li a{
+        padding: 5px 10px;
+        border: 1px rgb(20, 235, 149);
+        border-radius: 50px;
+        color: black;
+        align-items: center;
+        font-weight: bold;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        margin: auto;
+        background: linear-gradient(to right, #f29435, #ff6600);
+       
+        text-decoration: none;
+    }
+    .box1 ul{
+        padding: 5% 0%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+  }
